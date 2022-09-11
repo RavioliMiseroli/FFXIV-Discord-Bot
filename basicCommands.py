@@ -7,5 +7,5 @@ class HelpCog(commands.Cog):
     
     @commands.command()
     async def help(self, ctx):
-        print("yah this shitty function works")
+        print("tests")
         await ctx.send(embed=embed)
